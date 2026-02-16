@@ -39,11 +39,13 @@
     "yargs": "^17.7.2",
     "yargs-parser": "^21.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
   "scripts": {
-  "sass": "sass --watch assets/scss/style.scss:public/assets/css/style.css",
-  "start": "concurrently \"npm run sass\""
-},
+    "sass": "sass --watch assets/scss/style.scss:public/assets/css/style.css",
+    "start": "concurrently \"npm run sass\" \"lite-server\""
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"

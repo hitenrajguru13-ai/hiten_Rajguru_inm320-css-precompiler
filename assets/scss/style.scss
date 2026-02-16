@@ -1,7 +1,3 @@
-/* =========================
-   VARIABLES
-========================= */
-
 $primary-color: #324360;
 $accent-color: #35c4ce;
 $text-color: #787878;
@@ -15,11 +11,6 @@ $submenu-bg: #f0f0f0;
 $main-font: 'Josefin Sans', sans-serif;
 $body-font: Quando;
 
-
-/* =========================
-   MIXINS
-========================= */
-
 @mixin flex-center {
   display: flex;
   justify-content: center;
@@ -29,12 +20,6 @@ $body-font: Quando;
 @mixin transition($time: .3s) {
   transition: all $time ease;
 }
-
-
-/* =========================
-   GLOBAL STYLES
-========================= */
-
 body {
   font-family: $body-font;
   font-size: 15px;
@@ -62,8 +47,6 @@ a {
   }
 }
 
-/* Headings */
-
 h1, h2, h3, h4, h5, h6 {
   margin-top: 25px;
   margin-bottom: 20px;
@@ -87,11 +70,6 @@ h6 { font-size: 15px; }
   margin: 0 auto;
 }
 
-
-/* =========================
-   HEADER + NAVIGATION
-========================= */
-
 header {
   font-family: $main-font;
 
@@ -107,12 +85,6 @@ header {
   width: 200px;
   margin: 20px auto 40px;
 }
-
-
-/* =========================
-   POSTS
-========================= */
-
 article {
   margin-bottom: 50px;
   display: flex;
@@ -140,11 +112,6 @@ article {
     }
   }
 }
-
-
-/* =========================
-   FOOTER
-========================= */
 
 footer {
   padding: 30px 0;
@@ -189,11 +156,6 @@ footer {
     color: $footer-text;
   }
 }
-
-
-/* =========================
-   MEDIA QUERY
-========================= */
 
 @media only screen and (min-width: 650px) {
 
@@ -284,8 +246,6 @@ footer {
   }
 
 
-  /* POSTS */
-
   article {
 
     .image-part {
@@ -307,9 +267,6 @@ footer {
       padding-left: 50px;
     }
   }
-
-
-  /* FOOTER */
 
   footer {
 
